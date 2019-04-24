@@ -1,11 +1,14 @@
 import ReactDOM, {render, unmountComponentAtNode} from 'react-dom'
 import React from 'react'
-import Alert from './react/alert.js'
-import Toast from './react/toast.js'
-import CircleLoading from './react/circle-loading.js'
-import BannerGroup from './react/banner-group.js'
-import SVGCircleProgress from './react/svg-circle-progress.js'
-import Nav from './react/nav.js'
+import Alert from './assets/alert.js'
+import Toast from './assets/toast.js'
+import CircleLoading from './assets/circle-loading.js'
+import BannerGroup from './assets/banner-group.js'
+import SVGCircleProgress from './assets/svg-circle-progress.js'
+import Nav from './assets/nav.js'
+import Filter from './assets/filter'
+import Error from "./assets/error";
+import asyncComponent from "./assets/async";
 
 const LOADING_ELEMENT_ID = '_id_react_component_global_loading';
 
@@ -78,4 +81,7 @@ export {
     , BannerGroup
     , Nav
     , SVGCircleProgress
+    , Filter
+    , Error
+    , asyncComponent
 }
