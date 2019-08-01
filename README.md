@@ -135,6 +135,7 @@ showAreaSelector(selected, autoComplete)
     <Filter data={filterDate} cb={this.handleSearch} />
    
 ```
+
 ![showAreaSelector](https://raw.githubusercontent.com/edwardxyt/gws-components/master/media/WX20190425-181507.png)
 
 #### 按需加载react router4 & 错误页面
